@@ -8,12 +8,11 @@
 int main(void)
 
 {
-int numbers;
+int i;
 
-for (numbers = 0 ; numbers < 10; numbers++)
-
+for (i = 0; i < 10; i++)
 {
-printf("%numbers", numbers);
+printf("%i", i);
 }
 
 printf("\n");
