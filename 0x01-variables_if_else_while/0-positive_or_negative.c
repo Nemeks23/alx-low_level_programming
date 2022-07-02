@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
- *Main - Entry point
+ * Main - Entry point
  *
- *Return: Always 0 (Success/Correct)
+ * Return: Always 0 (Success/Correct)
 */
 
 int main(void)
@@ -15,7 +16,7 @@ srand(time(0));
 
 n = rand() - RAND_MAX / 2;
 
-if (n = = 0)
+if (n == 0)
 {
 printf("%i is zero\n", n);
 }
