@@ -17,7 +17,7 @@ for (num_2 = num_1 + 1; num_2 <= 99; num_2++)
 
 putchar ((num_1 / 10) + '0');
 putchar ((num_1 % 10) + '0');
-/*putchar (' ');*/
+putchar (' ');
 
 putchar ((num_2 / 10) + '0');
 putchar ((num_2 % 10) + '0');
