@@ -9,10 +9,12 @@
 int main(void)
 {
 
-char nemeks = _putchar;
+char nemeks;
 
+for (nemeks = '_putchar')
+{
 putchar (nemeks);
-
+}
 putchar ('\n');
 
 return (0);
