@@ -5,10 +5,10 @@
  * Return: Always to 0 (Success)
 */
 
-void rx_nemeks(void)
+void print_alphabet(void)
 {
- char n;
- for (n = 'a'; c <= 'z'; n++)
+ char c;
+ for (c = 'a'; c <= 'z'; c++)
        _putchar(n);
  _putchar('\n');
 }
