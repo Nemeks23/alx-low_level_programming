@@ -3,9 +3,9 @@
  * _strncat - Concatenated two strings
  * @dest: A pointer to a character that will be chnaged
  * @src: A pointer to a character that will also be changed
- * @n: value 
+ * @n: value
  * Return: dest
- */
+*/
 
 char *_strncat(char *dest, char *src, int n)
 {
