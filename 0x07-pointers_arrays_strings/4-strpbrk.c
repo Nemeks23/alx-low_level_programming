@@ -4,7 +4,7 @@
  * @s: This is the Source string
  * @accept: This is the searching string
  *
- * Return: new string
+ * Return: null value
 */
 
 char *_strpbrk(char *s, char *accept)
@@ -23,6 +23,7 @@ break;
 if (*(accept + j) != '\0')
 {
 return (s + i);
+}
 }
 
 return (0);
