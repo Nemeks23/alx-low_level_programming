@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strspn - This function prints the consecutive characters of s1 thar are in s2
+ * _strspn - This function prints the consecutive characters of s1 thar are in s2.
  * @s: This is the Source string
  * @accept: This is the searching string
  *
- * Return: New string
+ * Return: New string.
 */
 
 unsigned int _strspn(char *s, char *accept)
