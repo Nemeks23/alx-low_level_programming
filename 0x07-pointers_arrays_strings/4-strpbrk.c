@@ -24,7 +24,6 @@ if (*(accept + j) != '\0')
 {
 return (s + i);
 }
-}
 
 return (0);
 }
