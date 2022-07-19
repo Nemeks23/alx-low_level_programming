@@ -27,5 +27,5 @@ for (i = (size - 1); i < size1; i = i + (size - 1))
 {
 sumDiag2 = sumDiag2 + a[i];
 }
-printf ("%d, %d\n", sumDiag1, sumDiag2);
+printf("%d, %d\n", sumDiag1, sumDiag2);
 }
