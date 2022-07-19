@@ -3,7 +3,7 @@
  * _strstr - first occurance of the substring needle in the haystack
  * @haystack: main str to be examined
  * @needle: searched in haystack
- * Return:
+ * Return: return 0
 */
 char *_strstr(char *haystack, char *needle)
 {
