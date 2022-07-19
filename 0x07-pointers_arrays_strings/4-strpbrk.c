@@ -5,7 +5,7 @@
  * @accept: this is the searching string
  *
  * Return: null value
-**/
+*/
 
 char *_strpbrk(char *s, char *accept)
 {
