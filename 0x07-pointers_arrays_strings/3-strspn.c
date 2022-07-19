@@ -3,6 +3,7 @@
  * _strspn - This function prints the consecutive characters of s1 thar are in s2
  * @s: This is the Source string
  * @accept: This is the searching string
+ *
  * Return: New string
 */
 
