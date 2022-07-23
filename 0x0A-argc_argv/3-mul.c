@@ -2,9 +2,7 @@
 #include <stdlib.h>
 /**
  * main - This is a program that multiplies two numbers.
- *
  * @argc: this is the argument count.
- *
  * @argv: This is the argument vector.
  *
  * Return: Always to 0.
