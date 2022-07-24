@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - This prints the amount of coins left
  * @args: Parameter entry.
@@ -25,7 +24,6 @@ if (c < 0)
 printf("0\n");
 return (0);
 }
-
 for (; c >= 0;)
 {
 if (c >= 25)
@@ -36,21 +34,15 @@ c -= 10;
 
 else if (c >= 5)
 c -= 5;
-
 else if (c >= 2)
 c -= 2;
-
 else if (c >= 1)
 c -= 1;
 
 else
 break;
-
 coins += 1;
 }
-
 printf("%d\n", coins);
-
 return (0);
-
 }
