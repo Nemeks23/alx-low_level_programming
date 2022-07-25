@@ -1,1 +1,1 @@
-This folder contains the task on Static Libraries
+This folder contains tasks on static libraries
