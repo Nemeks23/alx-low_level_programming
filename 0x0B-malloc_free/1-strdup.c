@@ -15,7 +15,7 @@
 char *_strdup(char *str)
 {
 char *nstr:
-unsigned int meks, i;
+unsigned int len, i;
 
 /*Checking if str is NULL*/
 if (str == NULL)
@@ -23,24 +23,24 @@ if (str == NULL)
 return (NULL);
 }
 
-meks = 0;
-while (str[meks] != '\0')
+len = 0;
+while (str[len] != '\0')
 {
-meks++;
+len++;
 }
 
-nstr = malloc(sizeof(char) * (meks + 1));
+nstr = malloc(sizeof(char) * (len + 1));
 /*Checking if Malloc was successful*/
 if (nstr == NULL)
 {
 return (NULL);
 }
 
-for (i = 0; i < meks; i++)
+for (i = 0; i < len; i++)
 {
 nstr[i] = str[i];
 }
 
-nstr[meks] = '\0';
+nstr[len] = '\0';
 return (nstr);
 }
