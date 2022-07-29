@@ -8,11 +8,19 @@
  * Return: void.
 */
 void free_grid(int **grid, int height)
+
 {
-int i;
-for (i = 0; i < height; i++)
-{
-free(grid[i]);
-}
-free(grid);
+
+	int i;
+
+	if (!grid)
+
+		free(grid);
+
+	for (i = 0; i < height; i++)
+
+		free(grid[i]);
+
+	free(grid);
+
 }
