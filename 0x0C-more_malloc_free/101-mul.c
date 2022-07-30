@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
-
 /**
  * _is_zero - Determines if any number is zero.
  * @argv: Argument vector.
@@ -31,7 +30,6 @@ if (isn1 == 1 || isn2 == 1)
 {
 printf("0\n");
 exit(0);
-
 }
 }
 
@@ -50,7 +48,6 @@ for (i = 0; i < lar; i++)
 ar[i] = '0';
 ar[lar] = '\0';
 return (ar);
-
 }
 
 /**
@@ -71,9 +68,7 @@ if (!isdigit(argv[n][ln]))
 printf("Error\n");
 exit(98);
 }
-
 return (ln);
-
 }
 
 /**
@@ -126,5 +121,4 @@ addl = add / 10, nout[k] = (add % 10) + '0';
 }
 printf("%s\n", nout);
 return (0);
-
 }
