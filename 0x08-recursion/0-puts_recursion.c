@@ -24,7 +24,7 @@ _puts_recursion(s + 1);
  * @s: Pointer to string
  *
  * Return: void
-*/
+
 
 *void _puts_recursion(char *s)
 *{
